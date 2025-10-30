@@ -9,7 +9,7 @@ export class NotesSearch {
 
     constructor(private notesDir: string){}
 
-    async loadNotes(filePath: string): Promise<Note[]> {
+    async loadNotes(): Promise<Note[]> {
         const files = await globby([
                 '**/*.md',
                 '**/*.txt',
@@ -25,7 +25,6 @@ export class NotesSearch {
         return this.notes
 
     }
-
 
     async loadNote(filePath: string): Promise<Note> {
         try {

@@ -2,6 +2,10 @@
 
 An MCP (Model Context Protocol) server that allows AI assistants to search and analyze your local notes directory.
 
+## Test Output
+
+[Screencast from 2025-11-01 21-37-53.webm](https://github.com/user-attachments/assets/ee27ff77-d348-44d5-bcf9-64e55e76e606)
+
 ## Features
 
 - **Full-text search** across all your notes
